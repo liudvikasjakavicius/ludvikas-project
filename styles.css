@@ -1,0 +1,701 @@
+/* Reset default margin for headings and body */
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin: 0;  /* Add this line to reset body margin */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #66AACD;
+}
+
+/* Header styles */
+header {
+    background-color: #66CDAA;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Lottery form button styles */
+form.booking-form button:active,
+form.booking-form button:hover {
+    background-color: #66CDAA;
+    color: #ffffff;
+}
+
+/* Search bar styles */
+.search-bar {
+    width: 300px;
+    margin-right: auto;
+}
+
+/* Navigation menu styles */
+.navigation-menu {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.menu-item.active {
+    color: #757171;
+}
+
+/* Menu item hover styles */
+.menu-item:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Responsive navigation menu styles */
+@media (min-width: 768px) {
+    .navigation-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-item {
+        margin: 0 20px;
+    }
+}
+
+/* Principal header styles */
+section.year-long-travel-section {
+    background: url('https://jakavicius.cloud/images/background1.jpg') center center/cover no-repeat;
+    background-size: 100% 100%;
+    color: #000000;
+    padding: 120px 20px;
+    text-align: left;
+}
+
+/* Year Long Travel title styles */
+.year-long-travel-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* Booking form styles */
+form.booking-form {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Arrow button styles */
+form.booking-form button {
+    background-color: #66CDAA;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Arrow icon styles */
+form.booking-form button i {
+    color: #ffffff;
+}
+
+/* Reservation Form lottery hover styles */
+form.booking-form button:hover {
+    background-color: #b5bcba;
+    color: #ffffff;
+}
+
+/* movoeUpDown effect */
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animated-text {
+    animation: moveUpDown 2s infinite; /* Adjust duration as needed */
+}
+
+.animated-text {
+    animation: moveUpDown 2s infinite; /* Adjust duration as needed */
+}
+
+/* Hover effects */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-link {
+    flex: 0 0 48%; /* Adjust the width as needed, leaving some space between images */
+    margin-bottom: 20px; /* Add margin to separate the images vertically */
+    overflow: hidden; /* Ensure the overflow is hidden to prevent layout issues */
+}
+
+.image-hover-effect {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.hover-effect:hover {
+    opacity: 0.4;
+    /* Example: reduce opacity on hover */
+}
+
+
+
+
+/* New section styles */
+section.new-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Three column layout styles */
+.three-columns {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.column {
+    width: 30%;
+}
+
+/* Centered Horizontal Images Section styles */
+section.centered-horizontal-images-section {
+    text-align: center;
+}
+
+.centered-horizontal-images-section img {
+    width: 30%;
+    margin-right: 1cm;
+    border-radius: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #66CDAA;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Newsletter styles */
+form.newsletter-form {
+    background-color: #343a40;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+}
+
+/* Add a custom class to the button (second form homepage) */
+.custom-button {
+    background-color: #66CDAA;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Logo styles */
+.logo {
+    width: 15%;
+    max-width: 150px;
+    height: auto;
+}
+
+/* Search button styles */
+form.search-bar button {
+    background-color: #66CDAA;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Search button hover styles */
+form.search-bar button:hover {
+    background-color: #b5bcba;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000000; /* Setting font color to black */
+    background-color: #66AACD; /* Blue background for the entire page */
+}
+
+/* Addiing custom styles below this line */
+
+/* First section styles */
+.first-section {
+    background-color: #66CDAA;
+    color: #000000; /* Set font color to black */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation menu styles */
+.navigation-menu {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    color: #ffffff; /* Set font color to white */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 20px;
+    transition: color 0.3s; /* Adding a smooth transition effect */
+}
+
+.menu-item.active {
+color: #757171; /* Set the color for the active link */
+/* Add any other styles you want for the active link */
+}
+
+/* Menu item hover styles */
+.menu-item:hover {
+    color: #000000; /* Setting the color you want on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* New section styles */
+.new-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #66AACD; /* Blue background */
+}
+
+/* Image gallery styles */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Gallery item hover styles */
+.gallery-item:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+/* Intro Text Styles */
+.intro-text {
+color: #ffffff; /* Set font color to white */
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 30px; /* Add some margin at the bottom for spacing */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #66AACD;
+}
+
+.first-section {
+    background-color: #66CDAA;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navigation-menu {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-item.active {
+    color: #757171; /* Set the color for the active link */
+    /* Add any other styles you want for the active link */
+}
+
+.new-section {
+    text-align: center;
+    background-color: #66AACD;
+}
+
+/* Centered Heading Styles */
+.centered-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #355c7d;
+    max-width: 50%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #66CDAA;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid #66CDAA;
+}
+
+.form-input:hover {
+    border: 2px solid #66CDAA;
+}
+
+.contact-info {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-image {
+    width: 50%; /* Set the width to match the form */
+    margin: 20px auto; /* Center the image */
+    border-radius: 10px;
+}
+
+.google-maps {
+    width: 50%; /* Set the width to match the form */
+    margin: 20px auto; /* Center Google Maps */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #66AACD;
+}
+
+.first-section {
+    background-color: #66CDAA;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navigation-menu {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-item.active {
+    color: #757171; /* Set the color for the active link */
+    /* Add any other styles you want for the active link */
+}
+
+.new-section {
+    text-align: center;
+    background-color: #66AACD;
+}
+
+/* Centered Heading Styles */
+.centered-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #355c7d;
+    max-width: 50%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #66CDAA;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid #66CDAA;
+}
+
+.form-input:hover {
+    border: 2px solid #66CDAA;
+}
+
+.contact-info {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-image {
+    width: 50%; /* Set the width to match the form */
+    margin: 20px auto; /* Center the image */
+    border-radius: 10px;
+}
+
+.google-maps {
+    width: 50%; /* Set the width to match the form */
+    margin: 20px auto; /* Center Google Maps */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #66AACD;
+}
+
+.first-section {
+    background-color: #66CDAA;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navigation-menu {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-item.active {
+color: #757171; /* Set the color for the active link */
+/* Add any other styles you want for the active link */
+}
+
+.new-section {
+    text-align: center;
+    background-color: #66AACD;
+}
+
+/* Centered Heading Styles */
+.centered-heading {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.contact-form {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #355c7d;
+    max-width: 50%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #66CDAA;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid #66CDAA;
+}
+
+.form-input:hover {
+    border: 2px solid #66CDAA;
+}
+
+.contact-info {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-image {
+    width: 50%; /* Set the width to match the form */
+    margin: 20px auto; /* Center the image */
+    border-radius: 10px;
+}
+
+.google-maps {
+    width: 50%; /* Set the width to match the form */
+    margin: 20px auto; /* Center Google Maps */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #ffffff; /* Set font color to white */
+    background-color: #66AACD; /* Blue background for the entire page */
+}
+
+/* Custom styles below this line */
+
+/* First Section Styles */
+.first-section {
+    background-color: #66CDAA;
+    color: #ffffff; /* Set font color to white */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation Menu Styles */
+.navigation-menu {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    color: #ffffff; /* Set font color to white */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 20px;
+    transition: color 0.3s; /* Smooth transition effect */
+}
+
+/* Menu item hover styles */
+.menu-item:hover {
+    color: #000000; /* Set hover color */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Centered Heading Styles */
+.centered-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
