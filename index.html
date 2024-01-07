@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Home - Travel Online Agency</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+
+<body style="background-color: #66AACD; margin: 0; padding: 0;">
+
+    <!-- Header for search bar -->
+    
+    <header>
+        <div class="col-md-6 mx-auto"> <!-- Use mx-auto to center the column -->
+            <!-- Navigation Menu with text-center class -->
+            <div class="navigation-menu text-center">
+                <a href="../main-pages/index.html" class="menu-item active">Home</a>
+                <a href="../main-pages/destinations-gallery.html" class="menu-item">Destinations</a>
+                <a href="../main-pages/contact-us-form.html" class="menu-item">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+<br>
+
+<!-- Search Bar -->
+<form class="form-inline search-bar mx-auto" method="GET" onsubmit="return redirectToDestination()">
+    <!-- Input field and button for search -->
+    <input type="text" class="form-control mr-sm-2" placeholder="Enter a destination" aria-label="Search" name="city">
+    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+</form>
+
+<script>
+function redirectToDestination() {
+    // Script to get the value entered in the search bar and  JavaScript function (redirectToDestination) to re-direct to the searched page.  
+    var cityName = document.getElementsByName("city")[0].value.toLowerCase();
+
+// Define the destinations and their corresponding URLs
+var destinations = {
+    "tokyo": "../cities/tokyo.html",
+    "dubai": "../cities/dubai.html",
+    "montecarlo": "../cities/montecarlo.html",
+    "london": "../cities/london.html",
+    "paris": "../cities/paris.html",
+    "sydney": "../cities/sydney.html",
+    "quebec": "../cities/quebec.html",
+    "los angeles": "../cities/los-angeles.html",
+    "madrid": "../cities/madrid.html",
+    "vienna": "../cities/vienna.html",
+    "vilnius": "../cities/vilnius.html",
+    "riga": "../cities/riga.html"
+    // Add more cities and URLs as needed
+};
+
+   // Check if the entered city is in the destinations list
+   if (destinations.hasOwnProperty(cityName)) {
+        // Redirect to the corresponding URL
+        window.location.href = destinations[cityName];
+        return false; // Prevent form submission
+    } else {
+        // Provide feedback or handle the case when the city is not found
+        alert("City not in our catalog. Please try another city name.");
+        return false; // Prevent form submission
+    }
+}
+</script>
+
+    <!-- Principal Header of the Home Page -->
+    <section class="container-fluid mt-4 year-long-travel-section">
+        <h2 class="section-heading" style="color: #333333; text-align: center;"><b>Travel Online Agency</b></h2>
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <div class="year-long-travel-title">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <!-- Logo -->
+                    <img src="../images/logo.jpg" alt="Logo" class="logo">
+                    <br>
+                    <br>
+                    <p style="color: white;">Get Information About Your Favorite Destination:</p>
+                </div>
+                <!-- Express form to get info of any available destination without visiting other pages -->
+                <form class="booking-form" action="https://submit-form.com/bVAPZKIJj" method="POST">
+                    <input type="hidden" name="_redirect" value="https://jakavicius.cloud/thank_you.html">
+
+                    <div class="form-group">
+                        <label for="name1">Name:</label>
+                        <input type="text" class="form-control" id="name1" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email2">Email:</label>
+                        <input type="email" class="form-control" id="email2" name="email" required>
+                    </div>
+                    
+                <!-- Destinations drop-down menu -->
+
+                    <div class="form-group">
+                        <label for="destination">Destination:</label>
+                        <select class="form-control" id="destination" name="destination" required>
+                            <option value="" disabled selected>Select a destination</option>
+                            <option value="Tokyo">Tokyo</option>
+                            <option value="Dubai">Dubai</option>
+                            <option value="Montecarlo">Montecarlo</option>
+                            <option value="London">London</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Sydney">Sydney</option>
+                            <option value="Quebec">Quebec</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Madrid">Madrid</option>
+                            <option value="Vienna">Vienna</option>
+                            <option value="Vilnius">Vilnius</option>
+                            <option value="Riga">Riga</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-warning custom-button"><i class="fas fa-arrow-right"></i></button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Section with Two Columns -->
+    <section class="container-fluid new-section">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="three-columns">
+                    <!-- Column 1: Sydney -->
+                    <div class="column">
+                        <h3 style="color: white; text-align: center;"><b>Sydney</b></h3>
+                        <br>
+                        <p style="color: white;">Discover the beauty of Sydney, Australia. Explore stunning beaches, iconic landmarks, and a vibrant cultural scene in this captivating city down under.</p>
+                    </div>
+                    <!-- Column 2: Paris -->
+                    <div class="column">
+                        <h3 style="color: white; text-align: center;"><b>Paris</b></h3>
+                        <br>
+                        <p style="color: white;">Experience the romance and elegance of Paris. Visit iconic landmarks, indulge in exquisite cuisine, and immerse in the artistic atmosphere of the City of Light.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- New Section with 2 Vertical Images (hover and marquee) -->
+<section class="container-fluid centered-horizontal-images-section">
+    <h2 class="section-heading text-center animated-text" style="color: white;">50% Discount in Sydney and Paris. Ask for information!</h2>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <br>
+            <br>
+            <br>
+            <a href="https://jakavicius.cloud/cities/sydney.html" class="image-link">
+                <img src="../images/sydney.jpg" alt="Sydney Image" class="hover-effect" style="width: 30%; margin-right: 1cm; border-radius: 10px;">
+            </a>
+            <a href="https://jakavicius.cloud/cities/paris.html" class="image-link">
+                <img src="../images/paris.jpg" alt="Paris Image" class="hover-effect" style="width: 30%; margin-right: 1cm; border-radius: 10px;">
+            </a>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+
+    <!-- Footer -->
+    <footer class="container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+        </div>
+            <div class="text-center">
+            </div>
+                <br>
+               
+<!-- Newsletter -->
+<p style="color: #ffffff; letter-spacing: 0.06em;"><b>Subscribe now to our monthly newsletter!</b></p>
+<form action="https://submit-form.com/bVAPZKIJj" method="POST" class="form-inline d-flex justify-content-center">
+    <input type="hidden" name="_redirect" value="https://jakavicius.cloud/thank_you.html">
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="newsletterEmail" class="sr-only">Email</label>
+        <input type="email" class="form-control" name="email" id="newsletterEmail" placeholder="Your Email" required>
+    </div>
+    <button type="submit" class="btn btn-light mb-2">Subscribe</button>
+</form>
+
+<div class="navigation-menu" style="text-align: left;">
+    <a href="index.html" class="menu-item">home</a>
+    <a href="destinations-gallery.html" class="menu-item">destinations</a>
+    <a href="contact-us-form.html" class="menu-item">contact us</a>
+</div>
+
+</footer>
+<br>
+<br>
+<p style="color: #fffdfd; text-align: center; font-size: smaller;">&copy; 2024 Liudvikas Jakavičius. All Rights Reserved.</p>
+<br>
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
